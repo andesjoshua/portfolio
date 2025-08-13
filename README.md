@@ -4,8 +4,7 @@ This is my personal portfolio website built with **React** and **Vite**, showcas
 
 ## 🚀 Live Demo
 
- [Visit My Portfolio](https://your-portfolio-url.vercel.app)  
-*(Replace with your actual deployed link)*
+ [Visit My Portfolio](https://andesjoshua.vercel.app/)  
 
 ## Tech Stack
 
