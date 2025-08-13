@@ -4,17 +4,16 @@ This is my personal portfolio website built with **React** and **Vite**, showcas
 
 ## 🚀 Live Demo
 
-👉 [Visit My Portfolio](https://your-portfolio-url.vercel.app)  
-*(Replace with your actual deployed link)*
+ [Visit My Portfolio](https://andesjoshua.vercel.app/)  
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework**: React + TypeScript
 - **Bundler**: Vite
 - **Styling**: Inline CSS (easy to maintain and customize)
 - **Hosting**: Vercel
 
-## ✨ Features
+## Features
 
 - Clean, minimal single-page layout
 - Dark mode toggle 🌙
@@ -22,7 +21,7 @@ This is my personal portfolio website built with **React** and **Vite**, showcas
 - Avatar & contact links
 - Experience section based on real work history
 
-## 🧪 Local Development
+## Local Development
 
 To run the site locally:
 
