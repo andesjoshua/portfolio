@@ -20,7 +20,7 @@ const Portfolio = () => {
           <p style={styles.role}>Full Stack Software Developer</p>
           <div style={styles.links}>
             <a style={{ ...styles.link, color: theme.link }} href="mailto:1andesjoshua1@gmail.com">Email</a>
-            <a style={{ ...styles.link, color: theme.link }} href="https://github.com/yourhandle" target="_blank" rel="noreferrer">GitHub</a>
+            <a style={{ ...styles.link, color: theme.link }} href="https://github.com/andesjoshua" target="_blank" rel="noreferrer">GitHub</a>
             <a style={{ ...styles.link, color: theme.link }} href="https://www.linkedin.com/in/andesjoshua/" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
           <button onClick={toggleDarkMode} style={styles.toggle}>
