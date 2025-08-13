@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal cyberpunk base */
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #07090d;
+  color: rgba(255,255,255,0.92);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Background layers: soft neon glows + subtle grid */
+.cyber-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  background:
+    radial-gradient(700px_700px_at_20%_10%, rgba(0,255,255,0.12), transparent 60%),
+    radial-gradient(900px_900px_at_80%_90%, rgba(255,0,255,0.10), transparent 60%),
+    #07090d;
+}
+
+.cyber-grid {
+  position: fixed;
+  inset: 0;
+  z-index: -9;
+  pointer-events: none;
+  opacity: 0.08;
+  background:
+    repeating-linear-gradient(0deg, transparent, transparent 23px, rgba(255,255,255,0.12) 24px),
+    repeating-linear-gradient(90deg, transparent, transparent 23px, rgba(255,255,255,0.12) 24px);
+}
+
+/* Utility: neon focus ring */
+.focus-neon:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0,255,255,0.4), 0 0 0 6px rgba(255,0,255,0.22);
+}
+
+/* Reduce tap highlight on mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
